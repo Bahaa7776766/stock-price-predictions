@@ -13,7 +13,7 @@ today = date.today().strftime("%Y-%m-%d")
 st.title("Stock Prediction App")
 
 
-stocks = sorted(("^GSPC", "AAPL", "AMZN", 'BRK-B',"NVDA",
+stocks = sorted(("^GSPC", "AMZN", 'BRK-B',"NVDA",
                   "MSFT",  "TSM", "META", "WMT", "V"))
 
 selected_stock = st.selectbox("Select dataset for prediction", stocks)
